@@ -1,0 +1,33 @@
+[
+  {
+    "name": "html",
+    "level": 90
+  },
+  {
+    "name":  "css",
+    "level": 85
+  },
+  {
+    "name":  "sass",
+    "level": 85
+  },
+  {
+    "name":  "JavaScript",
+    "level": 70
+  },
+  {
+    "name":  "React",
+    "level": 60
+  },
+  {
+    "name":  "Python",
+    "level": 55
+  },{
+    "name":  "Pandas",
+    "level": 60
+  },
+  {
+    "name":  "Bash",
+    "level": 50
+  }
+]

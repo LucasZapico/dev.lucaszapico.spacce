@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Design",
+    "caption": "I drive toward design that takes into account business objectives and user experiences and functionality that scales in highly intutive ways.",
+    "make": "User Experience, User Interface, Web, Mobile, Apps, Emails, Logos, Data Viszualizations",
+    "tools": ["Pencil & Paper","Sketch","Figma","Adobe","Zeplin","Sip"]
+  },
+  {
+    "title": "Development",
+    "caption": "I love making efficient systems in the digital space.",
+    "make": "Websites, Webapps, Desktop Apps, and a lot of Utility Scripts",
+    "tools": ["Hugo","Jekyll","MERN","Vscode","Atom","Github","iTerm2","Zshell"]
+  }
+]

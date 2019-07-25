@@ -1,0 +1,21 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content='width=device-width, initial-scale=1' />
+  <title>{{ block "title" . }}
+    <!-- Blocks may include default content. -->
+    {{ .Site.Title }}
+    {{ end }}</title>
+  {{ if .Site.Params.favicon }}
+  <link rel='icon' href="{{ .Site.Params.favicon | absURL }}" />
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Darker+Grotesque&display=swap" rel="stylesheet">
+  {{ end }}
+  {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+  {{ $style := resources.Get "sass/styles.scss" | resources.ToCSS $options }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+</head>
+{{ if .Site.Params.MathJax | default true }}
+<!-- adds MathJax support -->
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+{{ end }}

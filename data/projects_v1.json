@@ -1,0 +1,105 @@
+[
+   {
+      "title": "Horizontal Scroll",
+      "screenShot": "JwbNmd/image/small.png",
+      "link": "JwbNmd",
+      "tags": [
+         "functionality",
+         "layout"
+      ],
+      "summary": "A studying into hijacking expected scroll functionality. I have seen the horizontal scroll implemented in very fresh and interesting ways."
+   },
+   {
+      "title": "Book of Tea Excerpt Layout",
+      "screenShot": "maPoYd/image/small.png",
+      "link": "maPoYd",
+      "tags": [
+         "layout"
+      ],
+      "summary": "Playing with layouts. With an exploration of vertical text elements and themeing with regards to content. "
+   },
+   {
+      "title": "Progress Bar",
+      "screenShot": "yGXjVw/image/small.png",
+      "link": "yGXjVw",
+      "tags": [
+         "functionality"
+      ],
+      "summary": "Exploring the scroll progress and section word count display. <br><em>Note: I would like to come back around and add a progress by word count ui of some sort.</em>"
+   },
+   {
+      "title": "Sun",
+      "screenShot": "JwmyRQ/image/small.png",
+      "link": "JwmyRQ",
+      "tags": [
+         "animation",
+         "play",
+         "pseudo-art",
+         "color-play"
+      ],
+      "summary": " really enjoy this flat sun pseudo cloud visual. Thus, it was an obvious project to render it."
+   },
+   {
+      "title": "Trudging Svg Animation",
+      "screenShot": "BvajYa/image/small.png",
+      "link": "BvajYa",
+      "tags": [
+         "animation",
+         "svg"
+      ],
+      "summary": "An initial first push into some of the really amazing stuff that can be made with svg's."
+   },
+   {
+      "title": "Hamburger Hover Play",
+      "screenShot": "mQLZRY/image/small.png",
+      "link": "mQLZRY",
+      "tags": [
+         "animation",
+         "design-pattern"
+      ],
+      "summary": "Some hamburger menu animation. Fun little project."
+   },
+   {
+      "title": "404 Fox Svg",
+      "screenShot": "eLqJvx/image/small.png",
+      "link": "eLqJvx",
+      "tags": [
+         "animation",
+         "svg",
+         "pseudo-art"
+      ],
+      "summary": "SVG play with my creation the dapper fox. "
+   },
+   {
+      "title": "Spinner Border",
+      "screenShot": "rQPYvR/image/small.png",
+      "link": "rQPYvR",
+      "tags": [
+         "animation",
+         "svg",
+         "pseudo-art"
+      ],
+      "summary": "A study in border effects and loading animations. "
+   },
+   {
+      "title": "Responsive Menu",
+      "screenShot": "xaPWrr/image/small.png",
+      "link": "xaPWrr",
+      "tags": [
+         "design-pattern",
+         "svg",
+         "color-play"
+      ],
+      "summary": "Study of a responsive nav menu pattern. With toggle and hamburger menu animations function. "
+   },
+   {
+      "title": "Scroll focus Section",
+      "screenShot": "YeZrMy/image/small.png",
+      "link": "YeZrMy",
+      "tags": [
+         "functionality",
+         "color-play"
+      ],
+      "summary": "Study of scroll events"
+   }
+]
