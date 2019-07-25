@@ -1,41 +1,14 @@
 {{ define "main" }}
 <main class="space all plus">
   <header>
-    <h1 class="color-d">Hi, I'm Lucas and I design and build function and experience on the web</h1>
+    <h1 class="color-d">Hi, I'm Lucas<br> I design and build function and experience on the web</h1>
   </header>
   <section>
-    <h4 class="color-c">I love discussing, playing with and solving problems of all shape size and impact. Shipping it then coming back and improving it. My todo list is life long and I wouldn't have it any other way. I am known to bounce dance in
-      my chair when I
-      hit that dark souls flow state and get some real head way on of challenge I have been ruminating about. </h4>
+    <h4 class="color-c">I love discussing, playing with and solving problems of all shape size. I am drawn to the digital space because of the speed of iteration and the seemingly infinite opportunites to do more (little mircosoft ;)). My todo list
+      is life long and I wouldn't have it any other way.</h4>
+    <a class="link">More about the human</a>
   </section>
-  <section>
-    <div>
-      <p>
-        learning
-      </p>
-      <p>
-        experienced
-      </p>
-      <p>
-        competent
-      </p>
-      <p>
-        proficient
-      </p>
-      <p>
-        expert
-      </p>
-    </div>
-    <div>
-      {{ range $.Site.Data.skills_v1_1 }}
-      <div>
-        <div style="width:{{ .level }}% ">
-          {{ .name }}
-        </div>
-      </div>
-      {{ end  }}
-    </div>
-  </section>
+  <!-- Design Dev Cards -->
   <section>
     {{ range $.Site.Data.spaces_v1_1 }}
     <div class="card">
@@ -59,16 +32,53 @@
     </div>
     {{ end }}
   </section>
+  <!-- Projects -->
   <section>
     <h3 class="exa">My Projects</h3>
 
     <div class="tile-wrap">
       {{ range $.Site.Data.projects_v1}}
-      <div style="background-image: linear-gradient(rgba(0,77,97,0.8),rgba(0,77,97,0.8)),url('https://codepen.io/LucasZapico/pen/{{.screenShot}}')">
-      </div>
+      <a href="https://codepen.io/LucasZapico/pen/{{.link}}" target="_blank">
+        <div style="background-image: url('https://codepen.io/LucasZapico/pen/{{.screenShot}}')">
+        </div>
+      </a>
       {{ end }}
     </div>
 
+
+  </section>
+  <!-- Skill viz section  -->
+  <section>
+    <h2>Some Skils</h2>
+    <div>
+      <div>
+        <p>
+          learning
+        </p>
+        <p>
+          experienced
+        </p>
+        <p>
+          competent
+        </p>
+        <p>
+          proficient
+        </p>
+        <p>
+          expert
+        </p>
+      </div>
+      <div>
+        {{ range $.Site.Data.skills_v1_1 }}
+        <div>
+          <div style="width:{{ .level }}% ">
+            {{ .name }}
+          </div>
+        </div>
+        {{ end  }}
+      </div>
+
+    </div>
 
   </section>
   <section>
