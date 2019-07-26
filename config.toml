@@ -2,3 +2,7 @@ baseURL = ""
 languageCode = "en-us"
 title = "Lucas Zapico Developer Portfolio"
 theme = 'luc-v1'
+
+enableRobotsTXT = "True"
+# set up
+googleAnalytics = ""
