@@ -32,6 +32,25 @@ I love workflow. Hoping into an  *ecosystem*(add link on hover def) and having t
 
 > Six hours sharpening the ax
 
+## "More about the human" Drafting v1.0.1 
+
+- all I do is learn 
+- challenges and solutions 
+  - what does this mean? 
+- acquire tools and skills to deliver 
+
+> "To know is to produce" 
+
+## "Read more about my core principles" - Design 
+
+Web and app designing. 
+- progressive disclosure 
+- designing for a results 
+
+Optimized design, 
+
+My design process could be called optimized design or if I am being jargony agile design. I use design as a augmentation or a lubricate for use. 
+
 
 
 
