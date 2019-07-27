@@ -1,0 +1,19 @@
+{
+  "name": "dev.lucaszapico.space",
+  "version": "1.0.0",
+  "description": "Built tools for hugo site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasZapico/dev.lucaszapico.spacce.git"
+  },
+  "author": "Lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasZapico/dev.lucaszapico.spacce/issues"
+  },
+  "homepage": "https://github.com/LucasZapico/dev.lucaszapico.spacce#readme"
+}
