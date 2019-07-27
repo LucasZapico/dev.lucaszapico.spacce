@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/LucasZapico/dev.lucaszapico.spacce/issues"
   },
-  "homepage": "https://github.com/LucasZapico/dev.lucaszapico.spacce#readme"
+  "homepage": "https://github.com/LucasZapico/dev.lucaszapico.spacce#readme",
+  "dependencies": {
+    "requirejs": "^2.3.6"
+  }
 }
