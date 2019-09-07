@@ -5,6 +5,10 @@
 body {
   margin: 0;
   background-color: $light;
+  a {
+    color: $grey-d-3;
+    
+  }
 }
 
 main {
