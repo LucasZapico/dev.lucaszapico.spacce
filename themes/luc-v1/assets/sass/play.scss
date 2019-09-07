@@ -12,8 +12,6 @@ body {
 }
 
 main {
-  header {}
-
   section {
     min-height: 70vh;
     padding-bottom: 3rem;
@@ -263,6 +261,65 @@ main {
   }
 }
 
+/***
+**
+**  Load Animations 
+***/
+// Start State 
+
+body {
+  .in-left {
+    transform: translateX(100vw);
+  }
+  .in-right {
+    transform: translateX(100vw);
+  }
+  .in-top {
+    transform: translateY(-100vw);
+  }
+  .in-bottom {
+    transform: translateY(100vw);
+  }
+  &.loaded {
+    .in-left {
+      transform: translateX(100vw);
+      animation: from-left 2s 1 ease-in-out forwards;
+    }
+    .in-right {
+      transform: translateX(100vw);
+      animation: from-right 2s 1 ease-in-out forwards;
+    }
+    .in-top {
+      transform: translateY(-100vw);
+      animation: from-top 2s 1 ease-in-out forwards;
+    }
+    .in-bottom {
+      transform: translateY(100vw);
+      animation: from-bottom 2s 1 ease-in-out forwards;
+    }
+  }
+  @keyframes from-left {
+    to {
+      transform: translate(0)
+    }
+  }
+  @keyframes from-right {
+    to {
+      transform: translate(0)
+    }
+  }
+  @keyframes from-top {
+    to {
+      transform: translate(0)
+    }
+  }
+  @keyframes from-bottom {
+    to {
+      transform: translate(0)
+    }
+  }
+}
+
 
 /***
 **
@@ -274,7 +331,7 @@ main {
   top: 0;
   left: 0;
   z-index: -1;
-  transition: all ease-in-out .3s;
+  transition: all linear .3s;
 }
 
 

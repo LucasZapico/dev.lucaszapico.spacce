@@ -3,6 +3,7 @@
 window.onload = function(){
   console.log("i'm  alive")
   // animate leave on scroll
+  document.querySelector("body").classList.add("loaded")
   var leaves = document.querySelector("#leaves")
   function rotate(){
     console.log(window.pageYOffset)
