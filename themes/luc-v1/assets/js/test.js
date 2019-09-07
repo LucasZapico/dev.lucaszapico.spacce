@@ -1,3 +1,3 @@
-console.log("I'm test one!")
-
-test2()
+function test1(){
+  console.log("test 1")
+}
