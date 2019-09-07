@@ -2,7 +2,42 @@ baseURL = ""
 languageCode = "en-us"
 title = "Lucas Zapico Developer Portfolio"
 theme = 'luc-v1'
-
+summaryLength = 40
 enableRobotsTXT = "True"
 # set up
 googleAnalytics = ""
+
+
+
+[params]
+    author = "Lucas "
+    description = "Dev Portfolio for Lucas Zapico"
+    githubUsername = "LucasZapico"
+    favicon = "img/favicon-32x32.ico"
+    images = ["site-feature-image.jpg"]
+    title = "Dev.Lucas"
+
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "About"
+    name = "About"
+    url = "/#about"
+    weight = 1
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Project"
+    url = "/#project"
+    weight = 1
+

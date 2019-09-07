@@ -1,13 +1,19 @@
 {{ define "main" }}
-<main class="space all plus">
-  <header>
+<main class="space top-plus bottom-plus">
+  <header class="space right-plus">
     <h1 class="color-d">Hi, I'm Lucas<br> I design and build function and experience on the web</h1>
   </header>
-  <section>
+  <section class="space right-plus">
+    <div>
     <h4 class="color-c">I love discussing, playing with and solving problems of all shape size. I am drawn to the digital space because of the speed of iteration and the seemingly infinite opportunites to do more (little mircosoft ;)). My todo list
       is life long and I wouldn't have it any other way.</h4>
-    <a class="link">More about the human</a>
+    <a class="btn" href="about/">More about the human</a>
+  </div>
+    {{ partial "leaves.html" . }}
   </section>
+  
+  
+  
   <!-- Design Dev Cards -->
   <section>
     {{ range $.Site.Data.spaces_v1_1 }}
@@ -98,4 +104,5 @@
   </section>
 
 </main>
+
 {{ end }}

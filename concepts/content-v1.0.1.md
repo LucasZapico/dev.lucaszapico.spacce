@@ -53,5 +53,22 @@ My design process could be called optimized design or if I am being jargony agil
 
 
 
+Creativity is the application of elements in a new way 
+
+ I find data-driven solutions. I use a diversity of skills and tenacity for rigorous understanding to find optimizations within constrained business environments. My academic study of maths and economics has disposed me toward the analytic. This augmented with a strong understanding of web-based technologies centered around JavaScript development stacks and most recently extending into a Python based data analytics and for business intelligence.  My history within various verticles and an aptitude for data enable me to deliver consistent market intelligence.  
+
+----
+
+There is nothing I enjoy more than immersing myself in a system and touching every aspect, finding all of the different flavors of efficient solutions.   The latest system from a long list is marketing data analytics.    
 
 
+
+___
+WorkShops: 
+CodeSandBox ---> React, JS, functionality focused
+CodePen --> A bit of effort is put on aesthetic with work in CodePen
+___
+Corollary Points of Interest 
+User Experience 
+Design (mostly digital but some print work is fun) 
+Project Management (really just the art of being efficient with one's resources) 
