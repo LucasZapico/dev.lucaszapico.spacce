@@ -11,6 +11,7 @@ draft: true
 - [X] add scroll effect on leafs
 - [ ] favicon
 - [ ] resume -> display and download
+- [ ] linkedin link image!!
   
 
 ## Copy
