@@ -7,8 +7,8 @@ draft: true
 
 ## Enhancements
 
-- [ ] add on load transition 
-- [ ] add scroll effect on leafs
+- [X] add on load transition 
+- [X] add scroll effect on leafs
 - [ ] favicon
 - [ ] resume -> display and download
   
@@ -22,4 +22,4 @@ draft: true
 ## Content
 
 - [ ] about this project 
-- [ ] 
+- [ ] add credit
