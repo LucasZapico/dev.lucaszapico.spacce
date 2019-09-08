@@ -25,6 +25,8 @@ main {
       padding-top: 3rem;
       justify-content: center;
       display: flex;
+      flex-grow: 1;
+      flex-shrink: 1;
       flex-wrap: wrap;
       background: 
         radial-gradient($colord 2px, transparent 2px),
@@ -33,15 +35,19 @@ main {
       background-position: 0 0, -2px 6px, 10px 18px, 0 0;
 
       .card {
+        display: flex;
+        flex-direction: column;
         padding: 2rem;
         background-color: $grey-l-2;
         margin-bottom: 2rem;
         margin-right: 2rem;
-        width: 95vw;
+        max-width: 500px;
 
         &>.header {
-
-          min-height: 45vh;
+          h4 {
+            height: 20vh;
+          }
+          height: 45vh;
         }
 
         &>.body {
@@ -91,7 +97,7 @@ main {
     &:nth-of-type(4) {
       &>div:nth-of-type(1) {
         &>div:first-child {
-          background-color: $light;
+          // background-color: $light;
           border-radius: 50px;
           display: flex;
           margin-bottom: 2rem;
@@ -262,6 +268,25 @@ main {
 }
 
 /***
+** About
+**
+**/
+
+main#about {
+  
+}
+
+@media screen and (min-width: 800px){
+  main#about {
+    h3,
+    p {
+      max-width: 50vw;
+    }
+    
+  } 
+}
+
+/***
 **
 **  Load Animations 
 ***/
@@ -283,19 +308,19 @@ body {
   &.loaded {
     .in-left {
       transform: translateX(100vw);
-      animation: from-left 2s 1 ease-in-out forwards;
+      animation: from-left 1.5s 1 ease-in-out forwards;
     }
     .in-right {
-      transform: translateX(100vw);
-      animation: from-right 2s 1 ease-in-out forwards;
+      transform: translateX(-100vw);
+      animation: from-right 1.5s 1 ease-in-out forwards;
     }
     .in-top {
       transform: translateY(-100vw);
-      animation: from-top 2s 1 ease-in-out forwards;
+      animation: from-top 1.5s 1 ease-in-out forwards;
     }
     .in-bottom {
       transform: translateY(100vw);
-      animation: from-bottom 2s 1 ease-in-out forwards;
+      animation: from-bottom 1.5s 1 ease-in-out forwards;
     }
   }
   @keyframes from-left {

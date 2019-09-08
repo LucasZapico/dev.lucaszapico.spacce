@@ -2,25 +2,21 @@
   <div>
       <nav class="footer">
           <div></div>
-          <ul>
+          
           {{ $currentPage := .}}
             {{ range .Site.Menus.main }}
-              <li>
-                <a href="{{ .URL }}">{{ .Name }}</a>
-              </li>
+              
+                <p class="kill-margin "><a class="color-grey-d" href="{{ .URL }}">{{ .Name }}</a></p>
+              
             {{ end }}
-          </ul>
+          
         </nav>
   </div>
   <div>
-      <p>Wow, impressive to have made it this far. I would give you a <i class="star outline icon"></i> if I could.
+      <p class="color-grey-d">Wow, impressive to have made it this far. I would give you a <i class="star outline icon"></i> if I could.
         But, a <i class="smile icon"></i> will have to do. Thanks for checking out my developing data portfolio. <a
-          class="link dark" href="https://github.com/LucasZapico/data.lucaszapico.spacce" target="_blank">Here is the
-          code under the hood if that is your thing.</a> or you can check out my <a class="link dark"
-          href="data-port-plan">road map</a> for this site.</p>
-  </div>
-  <div>
-
-    <a id="credits">credits</a>
-  </div>
+          class="link dark" href="https://github.com/LucasZapico/dev.lucaszapico.spacce" target="_blank">Here is the
+          code under the hood if that is your thing.</a> </p>    
+          <!-- <a id="credits">credits</a> -->
+      </div>
 </footer>

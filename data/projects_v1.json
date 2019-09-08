@@ -7,7 +7,8 @@
          "functionality",
          "layout"
       ],
-      "summary": "A studying into hijacking expected scroll functionality. I have seen the horizontal scroll implemented in very fresh and interesting ways."
+      "summary": "A studying into hijacking expected scroll functionality. I have seen the horizontal scroll implemented in very fresh and interesting ways.",
+      "show": false
    },
    {
       "title": "Book of Tea Excerpt Layout",
@@ -16,7 +17,8 @@
       "tags": [
          "layout"
       ],
-      "summary": "Playing with layouts. With an exploration of vertical text elements and themeing with regards to content. "
+      "summary": "Playing with layouts. With an exploration of vertical text elements and themeing with regards to content. ",
+      "show": true
    },
    {
       "title": "Progress Bar",
@@ -25,7 +27,8 @@
       "tags": [
          "functionality"
       ],
-      "summary": "Exploring the scroll progress and section word count display. <br><em>Note: I would like to come back around and add a progress by word count ui of some sort.</em>"
+      "summary": "Exploring the scroll progress and section word count display. <br><em>Note: I would like to come back around and add a progress by word count ui of some sort.</em>",
+      "show": true
    },
    {
       "title": "Sun",
@@ -37,7 +40,8 @@
          "pseudo-art",
          "color-play"
       ],
-      "summary": " really enjoy this flat sun pseudo cloud visual. Thus, it was an obvious project to render it."
+      "summary": " really enjoy this flat sun pseudo cloud visual. Thus, it was an obvious project to render it.",
+      "show": true
    },
    {
       "title": "Trudging Svg Animation",
@@ -47,7 +51,8 @@
          "animation",
          "svg"
       ],
-      "summary": "An initial first push into some of the really amazing stuff that can be made with svg's."
+      "summary": "An initial first push into some of the really amazing stuff that can be made with svg's.",
+      "show": true
    },
    {
       "title": "Hamburger Hover Play",
@@ -57,7 +62,8 @@
          "animation",
          "design-pattern"
       ],
-      "summary": "Some hamburger menu animation. Fun little project."
+      "summary": "Some hamburger menu animation. Fun little project.",
+      "show": true
    },
    {
       "title": "404 Fox Svg",
@@ -68,7 +74,8 @@
          "svg",
          "pseudo-art"
       ],
-      "summary": "SVG play with my creation the dapper fox. "
+      "summary": "SVG play with my creation the dapper fox. ",
+      "show": true
    },
    {
       "title": "Spinner Border",
@@ -79,7 +86,8 @@
          "svg",
          "pseudo-art"
       ],
-      "summary": "A study in border effects and loading animations. "
+      "summary": "A study in border effects and loading animations. ",
+      "show": false
    },
    {
       "title": "Responsive Menu",
@@ -90,7 +98,8 @@
          "svg",
          "color-play"
       ],
-      "summary": "Study of a responsive nav menu pattern. With toggle and hamburger menu animations function. "
+      "summary": "Study of a responsive nav menu pattern. With toggle and hamburger menu animations function. ",
+      "show": false
    },
    {
       "title": "Scroll focus Section",
@@ -100,6 +109,7 @@
          "functionality",
          "color-play"
       ],
-      "summary": "Study of scroll events"
+      "summary": "Study of scroll events",
+      "show": false
    }
 ]

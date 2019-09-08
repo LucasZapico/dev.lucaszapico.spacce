@@ -5,3 +5,5 @@ draft: false
 type: "about" 
 ---
 
+I enjoy nothing more than endeavoring to build something competitive! The process itself is an addiction. I exist in the both extreme granularity and abstract models. 
+

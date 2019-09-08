@@ -51,4 +51,12 @@
   link: "https://example.com"
   description: "some text"
   for: "building"
-- 
+
+- title: "Lazysize"
+  link: "https://github.com/aFarkas/lazysizes"
+  description: "lazy loading images made easy"
+
+- title: "WOW"
+  link: https://www.delac.io/wow/
+  description: "on scroll animations"
+  

@@ -11,10 +11,9 @@
 </body>
 {{ $t1 := resources.Get "/js/test.js" }}
 {{ $t2 := resources.Get "/js/test2.js" }}
+{{ $lazy := resources.Get "/js/lazysizes.min.js" }}
 {{ $script := resources.Get "/js/script.js" }}
-{{ $js := slice $t1 $t2 $script | resources.Concat "js/bundle.js" }}
-
+{{ $js := slice $t1 $t2 $lazy $script | resources.Concat "js/bundle.js" }}
 <script type="text/javascript" src="{{ $js.Permalink }}">
-</script>
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </html>
