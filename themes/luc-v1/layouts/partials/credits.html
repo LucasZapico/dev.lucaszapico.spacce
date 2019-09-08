@@ -1,0 +1,5 @@
+<div id="credit-list">
+  {{ range $.Site.Data.credit }}
+    <strong><a href="{{.link}}">{{ .title }}</a></strong>{{ .description }}
+  {{ end }}
+</div>
