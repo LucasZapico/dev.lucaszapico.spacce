@@ -1,0 +1,54 @@
+- title: hugo
+  link: "https://example.com"
+  description: "some text"
+  for: "building"
+
+- title: iterm2
+  link: "https://example.com"
+  description: "some text"
+  for: "building"
+
+- title: vscode
+  link: "https://example.com"
+  description: "some text"
+  for: "building"
+
+- title: Figma
+  link: "https://example.com"
+  description: "some text"
+  for: "building"
+
+- title: github
+  link: "https://example.com"
+  description: "some text"
+  for: "building"
+
+- title: netlify
+  link: "https://example.com"
+  description: "some text"
+  for: "building"
+
+- title: codepen
+  link: "https://example.com"
+  description: "some text"
+  for: "building"
+- title: google fonts
+  link: "https://example.com"
+  description: "some text"
+  for: "building"
+
+- title: color hunt
+  link: "https://example.com"
+  description: "some text"
+  for: "building"
+
+- title: namecheap
+  link: "https://example.com"
+  description: "some text"
+  for: "building"
+
+- title: lighhouse
+  link: "https://example.com"
+  description: "some text"
+  for: "building"
+- 

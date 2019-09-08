@@ -28,7 +28,7 @@ googleAnalytics = ""
   [[menu.main]]
     identifier = "About"
     name = "About"
-    url = "/#about"
+    url = "/about"
     weight = 1
 
   [[menu.main]]
@@ -38,6 +38,6 @@ googleAnalytics = ""
 
   [[menu.main]]
     name = "Project"
-    url = "/#project"
+    url = "/project"
     weight = 1
 
