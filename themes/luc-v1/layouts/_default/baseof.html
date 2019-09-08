@@ -15,7 +15,6 @@
 {{ $js := slice $t1 $t2 $script | resources.Concat "js/bundle.js" }}
 
 <script type="text/javascript" src="{{ $js.Permalink }}">
-
 </script>
-
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </html>

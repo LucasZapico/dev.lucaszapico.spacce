@@ -1,6 +1,17 @@
 @import "normalize.css";
 @import "color.scss";
 @import "type-color.scss";
-@import "typeography.scss";
+@import "typography.scss";
 @import "utilities.scss";
+@import "nav.scss";
+@import "header-footer.scss";
 @import "play.scss";
+
+body {
+  * {
+    box-sizing: border-box;
+  }
+  a {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  
+  ul {
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    li {
+      a {
+        padding: 1rem;
+        text-decoration: none;
+      }
+    }
+  }
+  &.footer {
+    flex-direction: column;
+    ul {
+      flex-direction: column;
+    }
+  }
+}
