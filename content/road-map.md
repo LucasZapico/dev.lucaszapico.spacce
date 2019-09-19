@@ -6,7 +6,8 @@ draft: true
 
 
 ## Enhancements
-
+- [ ] add scroll down icon in hero
+- [ ] add to project link from about after click from home 
 - [X] add on load transition 
 - [X] add scroll effect on leafs
 - [x] favicon
