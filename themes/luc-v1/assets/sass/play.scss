@@ -4,6 +4,7 @@
 */
 body {
   margin: 0;
+  max-width: 100vw;
   background-color: $light;
   a {
     color: $grey-d-3;
@@ -46,9 +47,9 @@ main {
 
         &>.header {
           h4 {
-            height: 20vh;
+            height: 10rem;
           }
-          height: 45vh;
+          height: 20rem;
         }
 
         &>.body {
@@ -71,6 +72,7 @@ main {
           width: 80vw;
           overflow: hidden;
           margin-bottom: 2rem;
+          box-shadow: 5px 5px 5px #ccccc6;
         }
 
         div {
@@ -82,13 +84,23 @@ main {
           background-size: cover;
           background-repeat: no-repeat;
           transition: all 0.3s ease-in-out;
+          
+          
 
           &:focus {
+            a {
+              box-shadow: 10px 10px 10px #ccccc6;
+            }
+            
             transform: scale(1.2);
           }
 
           &:hover {
+            a {
+              box-shadow: 10px 10px 10px #ccccc6;  
+            }
             transform: scale(1.2);
+            
           }
         }
       }

@@ -16,6 +16,7 @@ draft: true
 
 ## Copy
 
+- [ ] review gammer!!
 - [ ] about copy 
 - [ ] development method/principles
 - [ ] design method/principles 

@@ -38,3 +38,61 @@ googleAnalytics = ""
 
  
 
+[social]
+  # Coding Communities
+  github                = ""
+  gitlab                = ""
+  stackoverflow         = "" # User Number
+  bitbucket             = ""
+  jsfiddle              = ""
+  codepen               = ""
+  # Visual Art Communities
+  deviantart            = ""
+  flickr                = ""
+  behance               = ""
+  dribbble              = ""
+  # Publishing Communities
+  wordpress             = ""
+  medium                = ""
+  # Professional/Business Oriented Communities
+  linkedin              = ""
+  linkedin_company      = ""
+  foursquare            = ""
+  xing                  = ""
+  slideshare            = ""
+  # Social Networks
+  facebook              = ""
+  googleplus            = ""
+  reddit                = ""
+  quora                 = ""
+  youtube               = ""
+  vimeo                 = ""
+  whatsapp              = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+    wechat              = ""
+    qq                  = "" # User ID Number
+  instagram             = ""
+  tumblr                = ""
+  twitter               = ""
+  skype                 = ""
+  snapchat              = ""
+  pinterest             = ""
+  telegram              = ""
+  vine                  = ""
+  googlescholar         = ""
+  orcid                 = ""
+  researchgate          = ""
+  # Email
+  email                 = ""
+
+[social-link]
+  twitter_username       = "https://twitter.com/lucas_zapico_10"
+  github_username        = " LucasZapico"
+  github_link            = "https://github.com/LucasZapico"
+  facebook_link          = "https://www.facebook.com/lucas.zapico.7"
+  linkedin_link          = "https://www.linkedin.com/in/lucasmmzapico/"
+  pinterest_link         = ""
+  codepen_link           = "https://codepen.io/LucasZapico"
+  codesandbox_link       = "https://codesandbox.io/u/LucasZapico"
+  codewars_link          = "https://www.codewars.com/users/LucasZapico"
+  instagram_link         = "https://www.instagram.com/10zapico/"
