@@ -9,7 +9,7 @@ draft: true
 
 - [X] add on load transition 
 - [X] add scroll effect on leafs
-- [ ] favicon
+- [x] favicon
 - [ ] resume -> display and download
 - [ ] linkedin link image!!
   
@@ -17,9 +17,9 @@ draft: true
 ## Copy
 
 - [ ] review gammer!!
-- [ ] about copy 
-- [ ] development method/principles
-- [ ] design method/principles 
+- [x] about copy 
+- [ ] (hold)development method/principles
+- [ ] (hold)design method/principles 
 
 ## Content
 

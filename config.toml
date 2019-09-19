@@ -36,9 +36,22 @@ googleAnalytics = ""
     url = "/"
     weight = 1
 
- 
+[test]
+  test1 = "bang"
+
 
 [social]
+  # custom
+  twitterusername       = "https://twitter.com/lucaszapico10"
+  githubusername        = "LucasZapico"
+  githublink            = "https://github.com/LucasZapico"
+  facebooklink          = "https://www.facebook.com/lucas.zapico.7"
+  linkedinlink          = "https://www.linkedin.com/in/lucasmmzapico/"
+  pinterestlink         = ""
+  codepenlink           = "https://codepen.io/LucasZapico"
+  codesandboxlink       = "https://codesandbox.io/u/LucasZapico"
+  codewarslink          = "https://www.codewars.com/users/LucasZapico"
+  instagramlink         = "https://www.instagram.com/10zapico/"
   # Coding Communities
   github                = ""
   gitlab                = ""
@@ -56,7 +69,7 @@ googleAnalytics = ""
   medium                = ""
   # Professional/Business Oriented Communities
   linkedin              = ""
-  linkedin_company      = ""
+  linkedincompany      = ""
   foursquare            = ""
   xing                  = ""
   slideshare            = ""
@@ -84,15 +97,7 @@ googleAnalytics = ""
   researchgate          = ""
   # Email
   email                 = ""
+  
 
-[social-link]
-  twitter_username       = "https://twitter.com/lucas_zapico_10"
-  github_username        = " LucasZapico"
-  github_link            = "https://github.com/LucasZapico"
-  facebook_link          = "https://www.facebook.com/lucas.zapico.7"
-  linkedin_link          = "https://www.linkedin.com/in/lucasmmzapico/"
-  pinterest_link         = ""
-  codepen_link           = "https://codepen.io/LucasZapico"
-  codesandbox_link       = "https://codesandbox.io/u/LucasZapico"
-  codewars_link          = "https://www.codewars.com/users/LucasZapico"
-  instagram_link         = "https://www.instagram.com/10zapico/"
+[sociallinks]
+    
