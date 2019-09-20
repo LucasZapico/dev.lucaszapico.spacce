@@ -52,7 +52,7 @@ main {
 
         &>.header {
           h4 {
-            height: 10rem;
+            height: 12rem;
           }
           height: 20rem;
         }
@@ -73,8 +73,8 @@ main {
         a {
           // background-image: linear-gradient(rgba(0,77,97,0.6),rgba(0,77,97,0.6));
           z-index: 7;
-          height: 40vh;
-          width: 80vw;
+          height: 20rem;
+          width: 40rem;
           overflow: hidden;
           margin-bottom: 2rem;
           box-shadow: 5px 5px 5px #ccccc6;
@@ -83,8 +83,8 @@ main {
         div {
           z-index: 0;
           margin: auto;
-          height: 40vh;
-          width: 80vw;
+          height: 20rem;
+          width: 40rem;
 
           background-size: cover;
           background-repeat: no-repeat;
@@ -280,7 +280,7 @@ main {
       a,
       div {
         flex-grow: 1;
-        max-width: 40vw;
+        flex-shrink: 1;
       }
     }
   }

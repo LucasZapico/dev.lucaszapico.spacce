@@ -5,3 +5,4 @@ draft: false
 type: "about" 
 ---
 
+ <a class="btn" href="/#projects">See some work</a>
