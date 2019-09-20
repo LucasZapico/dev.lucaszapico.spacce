@@ -1,19 +1,32 @@
 {{ define "main" }}
 <main class="space top-plus bottom-plus">
+    <div id="scroll">
+        <div>
+          <div>
+            <div>
+              <div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
   <header class="space-hor ">
-    
+
     <h1 class="color-d in-left">Hi, I'm Lucas<br> I design and build function and experience on the web</h1>
+
   </header>
   <section class="space-hor ">
     <div class="in-left">
-    <h4 class="color-c">I love discussing, playing with and solving problems of all shape size. I am drawn to the digital space because of the speed of iteration and the seemingly infinite opportunites to do more. My todo list is life long and I wouldn't have it any other way.</h4>
-    <a class="btn" href="about/">More about the human</a>
-  </div>
+      <h4 class="color-c">I love discussing, playing with and solving problems of all shape size. I am drawn to the
+        digital space because of the speed of iteration and the seemingly infinite opportunites to do more. My todo list
+        is life long and I wouldn't have it any other way.</h4>
+      <a class="btn" href="about/">More about the human</a>
+    </div>
     {{ partial "leaves.html" . }}
   </section>
-  
-  
-  
+
+
+
   <!-- Design Dev Cards -->
   <section class="space-hor">
     {{ range $.Site.Data.spaces_v1_1 }}
@@ -55,7 +68,7 @@
 
 
   </section>
- 
+
   <!-- Skill viz section  -->
   <section class="space-hor">
     <h3 class="exa">Some Skils</h3>
