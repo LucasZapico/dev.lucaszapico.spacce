@@ -69,7 +69,10 @@ main {
 
     // Home Project tile
     &:nth-of-type(3) {
+     
       .tile-wrap {
+        flex-direction: column;
+        justify-content: space-around;
         a {
           // background-image: linear-gradient(rgba(0,77,97,0.6),rgba(0,77,97,0.6));
           z-index: 7;
@@ -84,15 +87,11 @@ main {
           margin: auto;
           height: 20rem;
           width: 40rem;
-
           background-size: cover;
           background-repeat: no-repeat;
           transition: all 0.3s ease-in-out;
-
           box-shadow: 5px 5px 5px #ccccc6;
           
-          
-
           &:focus {
             a {
               box-shadow: 10px 10px 10px #ccccc6;
@@ -282,6 +281,7 @@ main {
       div {
         flex-grow: 1;
         flex-shrink: 1;
+        max-width: 40vw;
       }
     }
   }
