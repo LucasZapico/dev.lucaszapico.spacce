@@ -1,0 +1,66 @@
+@media screen and (min-width: 800px) {
+  
+    main {
+      header {
+        // display: flex;
+    
+        h1 {
+          margin-left: 50%;
+          max-width: 50%;
+        }
+    
+        h4 {
+          margin-left: 50%;
+          max-width: 50%;
+    
+        }
+      }
+    
+      section {
+        min-height: 70vh;
+    
+        &:first-of-type {
+          div:first-child {
+            margin-left: 50%;
+            max-width: 50%;
+          }
+    
+        }
+    
+        &:nth-of-type(4) {
+          &>div {
+            margin: auto;
+            max-width: 50%;
+    
+          }
+        }
+    
+   
+    
+      .card {
+        max-width: 35vw;
+      }
+    
+      // Home Project tile
+      &:nth-of-type(3) {
+        
+        .tile-wrap {
+          display: flex;
+          flex-wrap: wrap;  
+          flex-direction: row;
+          
+          justify-content: space-between;
+    
+          a,
+          div {
+            flex-grow: 1;
+            flex-shrink: 1;
+            max-width: 40vw;
+          }
+        }
+      }
+    }
+    }
+  
+  
+}
