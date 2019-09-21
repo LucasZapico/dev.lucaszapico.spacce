@@ -134,27 +134,32 @@ body {
 }
 
 #scroll {
- position: absolute;
-
-  top: 90vh;
-  margin: 0px;
+  padding-top: 2rem;
   width: 100%;
-  ion-icon {
-    margin:auto;
+  opacity: .7;
+  div:first-child {
+    margin: auto;
+    text-align: center;
+    animation: drip 2s ease-in infinite alternate;
   }
-  div {
+  div:last-child {
     z-index: 20;
     // opacity: .7;
     margin: auto;
    height: 75px;
      width: 75px;
    border-radius: 100%;
-    background-color: $colorc;
+    background-color: $grey-d-3;
    animation: drip 2s ease-in-out infinite alternate;
    
   @keyframes drip {
     to {
-      transform: translateY(2rem) scale(.5);
+      transform: translateY(2rem) scale(.60);
+    }
+  }
+  @keyframes bounce {
+    to {
+      transform: translateY(-1rem);
     }
   }
   }
