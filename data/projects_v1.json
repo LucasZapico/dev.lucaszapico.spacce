@@ -10,10 +10,20 @@
       "summary": "A studying into hijacking expected scroll functionality. I have seen the horizontal scroll implemented in very fresh and interesting ways.",
       "show": false
    },
+     {
+      "title": "Full CSS Gameboy",
+      "screenShot": "NWKyKER/image/small.png",
+      "link": "NWKyKER",
+      "tags": [
+         "layout"
+      ],
+      "summary": "Playing with CSS to make something classic. ",
+      "show": true
+   },
    {
       "title": "Book of Tea Excerpt Layout",
-      "screenShot": "maPoYd/image/small.png",
-      "link": "maPoYd",
+      "screenShot": "MWgZozR/image/small.png",
+      "link": "MWgZozR",
       "tags": [
          "layout"
       ],
