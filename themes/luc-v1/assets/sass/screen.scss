@@ -35,12 +35,14 @@
           }
         }
     
-   
-    
+        &:nth-of-type(2) {
       .card {
         max-width: 35vw;
+        &>.header {
+          height: 20rem;
+        }
       }
-    
+        }
       // Home Project tile
       &:nth-of-type(3) {
         
