@@ -45,8 +45,13 @@ main {
 
     }
 
-    // Home Project tile
+
     &:nth-of-type(3) {
+      &>div:first-child {}
+    }
+
+    // Home Project tile
+    &:nth-of-type(4) {
      
       .tile-wrap {
         flex-direction: column;
@@ -91,7 +96,7 @@ main {
     }
 
     // Home Skills Section
-    &:nth-of-type(4) {
+    &:nth-of-type(5) {
       
       &>div:nth-of-type(1) {
         &>div:first-child {
@@ -133,7 +138,7 @@ main {
 
     }
 
-    &:nth-of-type(5) {
+    &:nth-of-type(6) {
       &>div:first-child {
         padding: 2rem;
         height: 20vh;

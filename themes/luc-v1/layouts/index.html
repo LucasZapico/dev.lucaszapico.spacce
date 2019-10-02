@@ -47,6 +47,14 @@
     </div>
     {{ end }}
   </section>
+  <section>
+    {{ range $.Site.Data.workshops }}
+    <div>
+      <div><img src="{{ .icon }}"></img></div>
+      <div>{{.description}}</div>
+    </div>
+    {{ end }}
+  </section>
   <!-- Projects -->
   <section class="space all-plus">
     <h3 href="#projects" id="projects" class="exa">My Projects</h3>
