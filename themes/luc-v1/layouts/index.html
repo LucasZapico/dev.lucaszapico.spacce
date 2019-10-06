@@ -1,10 +1,10 @@
 {{ define "main" }}
 <main class="space top-plus bottom-plus">
-    
+
   <header class="space-hor">
 
     <h1 class="color-d in-left">Hi, I'm Lucas<br> I design and build function and experience on the web</h1>
-    
+
   </header>
 
   <section class="space-hor ">
@@ -14,12 +14,20 @@
         is life long and I wouldn't have it any other way.</h4>
       <a class="btn" href="about/">More about the human</a>
     </div>
-   <div id="scroll">
-     <div><h5>Scroll</h5></div>
-     <div><div><div><div></div></div></div></div>
-   </div>
+    <div id="scroll">
+      <div>
+        <h5>Scroll</h5>
+      </div>
+      <div>
+        <div>
+          <div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
     {{ partial "leaves.html" . }}
-    
+
   </section>
 
 
@@ -47,19 +55,30 @@
     </div>
     {{ end }}
   </section>
-  <section>
+  <section class="space all-plus">
+      <h3 href="#projects"  class="kill-margin exa">Where Work Happens</h3>
+      <h5 class="kill-margin color-grey-mm">A few other places on the internet where I get build stuff.</h5>
+      <div class="space-top">
     {{ range $.Site.Data.workshops }}
-    <div>
+    <div class="space slidetile-container">
+      
       <div><img src="{{ .icon }}"></img></div>
-      <div>{{.description}}</div>
+      <div class="content">
+        <h5 class="kill-margin">{{ .title }}<ion-icon name="open"></ion-icon>
+        </h5>
+        <p class="kilo">{{.description}}</p>
+      </div>
+      
     </div>
     {{ end }}
+  </div>
   </section>
   <!-- Projects -->
   <section class="space all-plus">
-    <h3 href="#projects" id="projects" class="exa">My Projects</h3>
+    <h3 href="#projects" id="projects" class="exa kill-margin">My Projects</h3>
+    <h5 class="kill-margin color-grey-mm">A showcase of various small Codepen frontend projects.</h5>
 
-    <div class="tile-wrap">
+    <div class="tile-wrap space-top">
       {{ range $.Site.Data.projects_v1 }}
       {{ if .show }}
       <a href="https://codepen.io/LucasZapico/pen/{{.link}}" target="_blank">
@@ -75,8 +94,9 @@
 
   <!-- Skill viz section  -->
   <section class="space-hor">
-    <h3 class="exa">Skills</h3>
-    <div>
+    <h3 class="exa kill-margin">Skills</h3>
+    <h5 class="kill-margin color-grey-mm">Some general technologies and how I stack.</h5>
+    <div class="space-top">
       <div>
         <p>
           learning

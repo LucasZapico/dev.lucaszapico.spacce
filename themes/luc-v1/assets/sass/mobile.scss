@@ -12,27 +12,29 @@ main {
       padding-top: 3rem;
       justify-content: space-around;
       display: flex;
-      flex-grow: 1;
-      flex-shrink: 1;
       flex-wrap: wrap;
-      background: 
+      background:
         radial-gradient($colord 2px, transparent 2px),
         radial-gradient($colord 2px, transparent 2px), transparent;
       background-size: 100%, 24px 24px, 24px 24px, 100%;
       background-position: 0 0, -2px 6px, 10px 18px, 0 0;
 
       .card {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
         display: flex;
         flex-direction: column;
         padding: 2rem;
+
         background-color: $grey-l-2;
         margin-bottom: 2rem;
-        
+
         max-width: 500px;
 
         &>.header {
           height: 30rem;
-      
+
         }
 
         &>.body {
@@ -47,17 +49,77 @@ main {
 
 
     &:nth-of-type(3) {
-      &>div:first-child {}
+      &>div {
+        display: flex;
+        flex-direction: column;
+        &>div.slidetile-container {
+          position: relative;
+          max-width: 150px;
+          margin: auto;
+          margin-bottom: 3rem;
+          cursor: pointer;
+  
+          >div:first-child {
+            width: 150px;
+          }
+  
+          >div:last-child.content {
+            position: absolute;
+            color: $light;
+            top: 0px;
+            background-color: $colord;
+            height: 0px;
+            width: 150%;
+            margin-left: -25%;
+            transition: all ease-in-out .2s;
+            overflow: hidden;
+  
+            // img {
+            //   padding-top: 1rem;
+            //   display: block;
+            //   max-width: 30px;
+            //   margin: auto;
+            // }
+  
+            h5 {
+              padding-top: .5rem;
+              text-align: center;
+            }
+  
+            p {
+              padding-left: 1rem;
+              padding-right: 1rem;
+              line-height: 1.2;
+            }
+          }
+  
+          &:hover,
+          &:focus,
+          &:active {
+            &>div:last-child {
+              height: 120%;
+            }
+          }
+        }
+      }
+
+    
+
+
+
     }
 
     // Home Project tile
     &:nth-of-type(4) {
-     
+      display: flex;
+      flex-direction: column;
+
       .tile-wrap {
         flex-direction: column;
         justify-content: space-around;
+
         a {
-      
+
           z-index: 7;
           height: 20rem;
           width: 40rem;
@@ -75,21 +137,22 @@ main {
           transition: all 0.3s ease-in-out;
           box-shadow: 5px 5px 5px #ccccc6;
           overflow: hidden;
-          
+
           &:focus {
             a {
               box-shadow: 10px 10px 10px #ccccc6;
             }
-            
+
             transform: scale(1.2);
           }
 
           &:hover {
             a {
-              box-shadow: 10px 10px 10px #ccccc6;  
+              box-shadow: 10px 10px 10px #ccccc6;
             }
+
             transform: scale(1.2);
-            
+
           }
         }
       }
@@ -97,7 +160,7 @@ main {
 
     // Home Skills Section
     &:nth-of-type(5) {
-      
+
       &>div:nth-of-type(1) {
         &>div:first-child {
           // background-color: $light;
