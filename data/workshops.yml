@@ -4,12 +4,12 @@
   icon: "img/technology-icons-svg/codepen.svg"
 
 - title: "Github"
-  link: "https://codepen.io/LucasZapico"
+  link: "https://github.com/LucasZapico"
   description: "Git to save the world! This is where I build, deploy, collaborate and work on all things code."
   icon: "/img/technology-icons-svg/github.svg"
 
 - title: "CodeSandbox"
-  link: "https://codepen.io/LucasZapico"
+  link: "https://codesandbox.io/u/LucasZapico"
   description: "This is my grab and go testing environment for new technologies, ideas and exploration in React, Vue, Javascript."
   icon: "/img/technology-icons-svg/codesandbox.svg"
 

@@ -6,18 +6,19 @@ draft: true
 
 
 ## Enhancements
-- [ ] add scroll down icon in hero
-- [ ] add to project link from about after click from home 
+- [X] add scroll down icon in hero
+- [X] add to project link from about after click from home 
 - [X] add on load transition 
 - [X] add scroll effect on leafs
 - [x] favicon
 - [ ] resume -> display and download
 - [ ] linkedin link image!!
+- [ ] add open in other tab indicator from Codepen projects
   
 
 ## Copy
 
-- [ ] review gammer!!
+- [x] review gammer!!
 - [x] about copy 
 - [ ] (hold)development method/principles
 - [ ] (hold)design method/principles 
