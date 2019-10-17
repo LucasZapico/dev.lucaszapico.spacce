@@ -15,6 +15,7 @@ googleAnalytics = ""
     githubUsername = "LucasZapico"
     favicon = "img/favicon-32x32.ico"
     images = ["https://dev.lucaszapico.space/img/site-feature-image.png"]
+    alt = "amazing image of dev.lucas website"
     title = "Dev.Lucas"
 
 
