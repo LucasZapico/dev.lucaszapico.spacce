@@ -4,30 +4,35 @@
     "level": 90
   },
   {
-    "name":  "css",
+    "name": "css",
     "level": 85
   },
   {
-    "name":  "sass",
+    "name": "sass",
     "level": 85
   },
   {
-    "name":  "JavaScript",
+    "name": "JavaScript",
     "level": 70
   },
   {
-    "name":  "React",
+    "name": "React",
     "level": 60
   },
   {
-    "name":  "Python",
+    "name": "Angular2",
+    "level": 70
+  },
+  {
+    "name": "Python",
     "level": 55
-  },{
-    "name":  "Pandas",
+  },
+  {
+    "name": "Pandas",
     "level": 60
   },
   {
-    "name":  "Bash",
+    "name": "Bash",
     "level": 50
   }
 ]
