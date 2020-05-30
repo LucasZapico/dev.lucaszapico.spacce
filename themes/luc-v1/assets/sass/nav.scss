@@ -1,7 +1,7 @@
 nav {
   display: flex;
   justify-content: flex-end;
-  
+
   ul {
     justify-content: space-around;
     display: flex;
@@ -9,12 +9,12 @@ nav {
     li {
       padding: 1rem;
       a {
-       
         // text-decoration: none;
       }
     }
   }
-  &.footer {
+  &.footer--nav {
+    justify-content: flex-start;
     flex-direction: column;
     ul {
       flex-direction: column;

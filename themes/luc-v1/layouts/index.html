@@ -12,6 +12,7 @@
       <h4 class="color-c">I love discussing, playing with, and solving problems of all shape size. I am drawn to the
         digital space because of the speed of iteration and the seemingly infinite opportunites to do more. My todo list
         is life long and I wouldn't have it any other way.</h4>
+        {{/*  fix button hover effect  */}}
       <a class="btn" href="about/">More about the human</a>
     </div>
     <div id="scroll">
@@ -61,24 +62,36 @@
       <div class="space-top">
     {{ range $.Site.Data.workshops }}
     <div class="space slidetile-container">
-      
+
       <div><img src="{{ .icon }}"></img></div>
       <div class="content">
         <h5 class="kill-margin">{{ .title }}<ion-icon name="open"></ion-icon>
         </h5>
         <p class="kilo">{{.description}}</p>
       </div>
-      
+
     </div>
     {{ end }}
   </div>
   </section>
   <!-- Projects -->
   <section class="space all-plus">
-    <h3 href="#projects" id="projects" class="exa kill-margin">My Projects</h3>
-    <h5 class="kill-margin color-grey-mm">A showcase of various small Codepen frontend projects.</h5>
+    <h3 href="#production"  class="exa kill-margin">Stream Of Production</h3>
+    <h5 class="kill-margin color-grey-mm"></h5>
 
-    <div class="tile-wrap space-top">
+    <div class=" space-top">
+                  <div class="posts-card--container">
+    {{ range first 10 .Site.RegularPages }}
+        <div class="posts-card--post">
+            <h4 class="kill-margin"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+            <h5 class="kill-margin color-grey-mm">A few other places on the internet where I get build stuff.</h5>
+            <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+            <div>{{.Params.categories}}</div>
+            <div>{{.Summary}}</div>
+        </div>
+    {{ end }}
+</div>
+
       {{ range $.Site.Data.projects_v1 }}
       {{ if .show }}
       <a href="https://codepen.io/LucasZapico/pen/{{.link}}" target="_blank">

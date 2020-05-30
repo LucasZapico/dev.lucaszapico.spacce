@@ -1,27 +1,58 @@
-<footer class="space all-plus">
-  <div>
-      <nav class="footer">
-          <div></div>
-          
-          {{ $currentPage := .}}
-            {{ range .Site.Menus.main }}
-              
-                <p class="kill-margin "><a class="color-grey-d link" href="{{ .URL }}">{{ .Name }}</a></p>
-              
-            {{ end }}
-          
-        </nav>
-  </div>
-  <div>
-    
-      <div><a href="{{.Site.Social.linkedinlink}}"><ion-icon size="large" name="logo-linkedin"></ion-icon></a></div>
-      <div><a href="{{.Site.Social.githublink}}"><ion-icon size="large" name="logo-github"></ion-icon></a></div>
-  </div>
-  <div>
-      <p class="color-grey-d">Wow, impressive to have made it this far. I would give you a <ion-icon name="star-outline"></ion-icon> if I could.
-        But, a <ion-icon name="happy"></ion-icon> will have to do. Thanks for checking out my developing dev portfolio. <a
-          class="link dark" href="https://github.com/LucasZapico/dev.lucaszapico.spacce" target="_blank">Here is the
-          code under the hood if that is your thing.</a> </p>    
-          <!-- <a id="credits">credits</a> -->
+<footer class="space all-plus footer">
+  <div class="footer--row">
+    <nav class="footer--nav footer--item">
+      {{ $currentPage := .}} {{ range .Site.Menus.main }}
+
+      <p class="kill-margin">
+        <a class="color-grey-d link" href="{{ .URL }}">{{ .Name }}</a>
+      </p>
+
+      {{ end }}
+    </nav>
+    <div class="footer--item">
+      <div>
+        <a href="{{.Site.Social.linkedinlink}}"
+          ><ion-icon size="large" name="logo-linkedin"></ion-icon
+        ></a>
       </div>
+      <div>
+        <a href="{{.Site.Social.githublink}}"
+          ><ion-icon size="large" name="logo-github"></ion-icon
+        ></a>
+      </div>
+    </div>
+    <div class="footer--item">
+      <p class="color-grey-d kill-margin">
+        Wow, impressive to have made it this far. I would give you a
+        <ion-icon name="star-outline"></ion-icon> if I could. But, a
+        <ion-icon name="happy"></ion-icon> will have to do. Thanks for checking
+        out my developing dev portfolio.
+        <a
+          class="link dark"
+          href="https://github.com/LucasZapico/dev.lucaszapico.spacce"
+          target="_blank"
+          >Here is the code under the hood if that is your thing.</a
+        >
+      </p>
+      <!-- <a id="credits">credits</a> -->
+    </div>
+  </div>
+  <div class="footer--connect">
+    <div>
+      <h5 class="kill-margin">Say Hello</h5>
+      <h6 class="kill-margin">
+        <a target="_blank" href="mailto:Hello.dev@LucasZapico.space"
+          >Hello.dev@LucasZapico.space</a
+        >
+      </h6>
+    </div>
+    <div>
+      <h5 class="kill-margin">Business</h5>
+      <h6 class="kill-margin">
+        <a target="_blank" href="mailto:Business.dev@LucasZapico.space"
+          >Business.dev@LucasZapico.space</a
+        >
+      </h6>
+    </div>
+  </div>
 </footer>
