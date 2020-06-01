@@ -19,8 +19,8 @@ It goes without saying that in any sort of production to stay marginally competi
 
 So the next time I needed a break for the grind I opened my [Figma](https://www.figma.com/) and decide to give the style a shot and here are the results.
 
-![](/img/rob-bailey-post-imgs/char-redbeard.png)
-![](/img/rob-bailey-post-imgs/charas-group.png)
+![Character Illurstration - Red Beard](/img/rob-bailey-post-imgs/char-redbeard.png)
+![Character Illurstration Group](/img/rob-bailey-post-imgs/charas-group.png)
 
 ## Why is this an important and interesting exercise?
 
