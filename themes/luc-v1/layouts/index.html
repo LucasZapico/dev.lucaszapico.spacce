@@ -38,13 +38,15 @@
     <div class=" space-top">
                   <div class="posts-card--container">
     {{ range first 10 .Site.RegularPages }}
+    {{ if eq .Params.isPost true }}
         <div class="posts-card--post">
             <h4 class="kill-margin"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-            <h5 class="kill-margin color-grey-mm">A few other places on the internet where I get build stuff.</h5>
+            <h5 class="kill-margin color-grey-mm">{{.Params.excerpt}}</h5>
             <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
             <div>{{.Params.categories}}</div>
             <div><p>{{.Summary}}</p></div>
         </div>
+        {{ end }}
     {{ end }}
 </div>
 

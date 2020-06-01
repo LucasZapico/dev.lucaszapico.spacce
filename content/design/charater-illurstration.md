@@ -2,6 +2,7 @@
 title: "Rob Bailey Inspired Character Illustration"
 date: 2020-05-29T12:02:59-07:00
 draft: false
+isPost: true
 categories: ["project", "design", "Illurstration"]
 tags: ["illurstration"]
 featured_img: "./charas-group.png"
