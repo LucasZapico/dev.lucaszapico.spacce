@@ -3,17 +3,17 @@
 
   <header class="space-hor">
 
-    <h1 class="color-d in-left">Hi, I'm Lucas<br> I design and build function and experience on the web</h1>
+    <h1 class="color-d in-left bg-light">Hi, I'm Lucas<br> I design and build function and experience on the web</h1>
 
   </header>
 
   <section class="space-hor ">
     <div class="in-left">
-      <h4 class="color-c">I love discussing, playing with, and solving problems of all shape size. I am drawn to the
+      <h4 class="color-c bg-light">I love discussing, playing with, and solving problems of all shape size. I am drawn to the
         digital space because of the speed of iteration and the seemingly infinite opportunites to do more. My todo list
         is life long and I wouldn't have it any other way.</h4>
         {{/*  fix button hover effect  */}}
-      <a class="btn" href="about/">More about the human</a>
+      <a class="btn btn--fancy" href="about/">More about the human</a>
     </div>
     <div id="scroll">
       <div>
@@ -30,52 +30,8 @@
     {{ partial "leaves.html" . }}
 
   </section>
-
-
-  <!-- Design Dev Cards -->
-  <section class="space-hor space top-plus">
-    {{ range $.Site.Data.spaces_v1_1 }}
-    <div class="card">
-      <div class="header">
-        <h3 class="color-grey-mm peta">{{ .title }}</h3>
-        <h4 class='color-grey-d space kill-margin minus bottom'>{{ .caption }}</h4>
-        {{/*  <a class="link space minus top">Read more about my core principles</a>  */}}
-
-      </div>
-      <div class="body">
-        <h4 class="color-d kill-margin space plus top">What I Make</h4>
-        <h6 class="space minus top kill-margin">
-          {{ .make }}
-        </h6>
-        <h4>My {{.title}} Tool Box</h4>
-        {{ range .tools }}
-        <p class="kill-margin"><a>{{.}}</a></p>
-        {{ end}}
-      </div>
-
-    </div>
-    {{ end }}
-  </section>
-  <section class="space all-plus">
-      <h3 href="#projects"  class="kill-margin exa">Where Work Happens</h3>
-      <h5 class="kill-margin color-grey-mm">A few other places on the internet where I get build stuff.</h5>
-      <div class="space-top">
-    {{ range $.Site.Data.workshops }}
-    <div class="space slidetile-container">
-
-      <div><img src="{{ .icon }}"></img></div>
-      <div class="content">
-        <h5 class="kill-margin">{{ .title }}<ion-icon name="open"></ion-icon>
-        </h5>
-        <p class="kilo">{{.description}}</p>
-      </div>
-
-    </div>
-    {{ end }}
-  </div>
-  </section>
-  <!-- Projects -->
-  <section class="space all-plus">
+<!-- Projects -->
+  <section class="space all-plus posts--container">
     <h3 href="#production"  class="exa kill-margin">Stream Of Production</h3>
     <h5 class="kill-margin color-grey-mm"></h5>
 
@@ -105,8 +61,51 @@
 
   </section>
 
+  <!-- Design Dev Cards -->
+  <section class="space-hor space top-plus skill-cards--container">
+    {{ range $.Site.Data.spaces_v1_1 }}
+    <div class="card">
+      <div class="header">
+        <h3 class="color-grey-mm peta">{{ .title }}</h3>
+        <h4 class='color-grey-d space kill-margin minus bottom'>{{ .caption }}</h4>
+        {{/*  <a class="link space minus top">Read more about my core principles</a>  */}}
+
+      </div>
+      <div class="body">
+        <h4 class="color-d kill-margin space plus top">What I Make</h4>
+        <h6 class="space minus top kill-margin">
+          {{ .make }}
+        </h6>
+        <h4 class="space top-minus">My {{.title}} Tool Box</h4>
+        {{ range .tools }}
+        <p class="kill-margin"><a>{{.}}</a></p>
+        {{ end}}
+      </div>
+
+    </div>
+    {{ end }}
+  </section>
+  <section class="space all-plus workhappens--container">
+      <h3 href="#projects"  class="kill-margin exa">Where Work Happens</h3>
+      <h5 class="kill-margin color-grey-mm">A few other places on the internet where I get build stuff.</h5>
+      <div class="space-top">
+    {{ range $.Site.Data.workshops }}
+    <div class="space slidetile-container">
+
+      <div><img src="{{ .icon }}"></img></div>
+      <div class="content">
+        <h5 class="kill-margin">{{ .title }}<ion-icon name="open"></ion-icon>
+        </h5>
+        <p class="kilo">{{.description}}</p>
+      </div>
+
+    </div>
+    {{ end }}
+  </div>
+  </section>
+
   <!-- Skill viz section  -->
-  <section class="space-hor">
+  <section class="space-hor skill-viz--container">
     <h3 class="exa kill-margin">Skills</h3>
     <h5 class="kill-margin color-grey-mm">Some general technologies and how I stack.</h5>
     <div class="space-top">

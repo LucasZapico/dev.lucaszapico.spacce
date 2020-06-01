@@ -1,5 +1,4 @@
 @media screen and (min-width: 800px) {
-
   main {
     header {
       // display: flex;
@@ -23,58 +22,53 @@
           margin-left: 50%;
           max-width: 50%;
         }
-
       }
-      &:nth-of-type(2) {
+      &.skill-cards--container {
+        display: flex;
         .card {
-          max-width: 35vw;
-
-          &>.header {
-            height: 20rem;
+          flex-basis: 40%;
+          margin-left: 1rem;
+          & > .header {
           }
         }
       }
 
-      &:nth-of-type(3) {
-        &>div {
+      &.workhappens--container {
+        & > div {
           display: flex;
           flex-direction: row;
           align-items: baseline;
         }
-        
       }
 
-      &:nth-of-type(5) {
-        &>div {
+      // & {
+      //   & > div {
+      //     margin: auto;
+      //     max-width: 50%;
+      //   }
+      // }
+
+      // Home Project tile
+      &.skill-viz--container {
+        & > div:nth-of-type(1) {
+          max-width: 40%;
           margin: auto;
-          max-width: 50%;
-
         }
-      }
+        .tile-wrap {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
 
-     
+          justify-content: space-between;
 
-  
-    
-
-    // Home Project tile
-    &:nth-of-type(4) {
-
-      .tile-wrap {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-
-        justify-content: space-between;
-
-        a,
-        div {
-          flex-grow: 1;
-          flex-shrink: 1;
-          max-width: 40vw;
+          a,
+          div {
+            flex-grow: 1;
+            flex-shrink: 1;
+            max-width: 40vw;
+          }
         }
       }
     }
   }
-}
 }

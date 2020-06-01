@@ -8,13 +8,12 @@ main {
     }
 
     // Home Card Section
-    &:nth-of-type(2) {
+    &.skill-cards--container {
       padding-top: 3rem;
       justify-content: space-around;
       display: flex;
       flex-wrap: wrap;
-      background:
-        radial-gradient($colord 2px, transparent 2px),
+      background: radial-gradient($colord 2px, transparent 2px),
         radial-gradient($colord 2px, transparent 2px), transparent;
       background-size: 100%, 24px 24px, 24px 24px, 100%;
       background-position: 0 0, -2px 6px, 10px 18px, 0 0;
@@ -23,47 +22,41 @@ main {
         flex-grow: 1;
         flex-shrink: 1;
         flex-basis: auto;
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
         padding: 2rem;
-
         background-color: $grey-l-2;
         margin-bottom: 2rem;
 
-        max-width: 500px;
-
-        &>.header {
-          height: 30rem;
-
+        & > .header {
+          grid-row: 1 / 1;
         }
 
-        &>.body {
+        & > .body {
           h6 {
             font-weight: 500;
           }
         }
-
       }
-
     }
 
-
-    &:nth-of-type(3) {
-      &>div {
+    &.workhappens--container {
+      & > div {
         display: flex;
         flex-direction: column;
-        &>div.slidetile-container {
+        & > div.slidetile-container {
           position: relative;
           max-width: 150px;
           margin: auto;
           margin-bottom: 3rem;
           cursor: pointer;
-  
-          >div:first-child {
+
+          > div:first-child {
             width: 150px;
           }
-  
-          >div:last-child.content {
+
+          > div:last-child.content {
             position: absolute;
             color: $light;
             top: 0px;
@@ -71,98 +64,92 @@ main {
             height: 0px;
             width: 150%;
             margin-left: -25%;
-            transition: all ease-in-out .2s;
+            transition: all ease-in-out 0.2s;
             overflow: hidden;
-  
+
             // img {
             //   padding-top: 1rem;
             //   display: block;
             //   max-width: 30px;
             //   margin: auto;
             // }
-  
+
             h5 {
-              padding-top: .5rem;
+              padding-top: 0.5rem;
               text-align: center;
             }
-  
+
             p {
               padding-left: 1rem;
               padding-right: 1rem;
               line-height: 1.2;
             }
           }
-  
+
           &:hover,
           &:focus,
           &:active {
-            &>div:last-child {
+            & > div:last-child {
               height: 120%;
             }
           }
         }
       }
-
-    
-
-
-
     }
 
     // Home Project tile
-    &:nth-of-type(4) {
-      display: flex;
-      flex-direction: column;
-
-      .tile-wrap {
+    &.skill-voz {
+      &--container {
+        display: flex;
         flex-direction: column;
-        justify-content: space-around;
 
-        a {
+        .tile-wrap {
+          flex-direction: column;
+          justify-content: space-around;
 
-          z-index: 7;
-          height: 20rem;
-          width: 40rem;
-          overflow: hidden;
-          margin-bottom: 6rem;
-        }
-
-        div {
-          z-index: 0;
-          margin: auto;
-          height: 20rem;
-          margin-bottom: 2rem;
-          background-size: cover;
-          background-repeat: no-repeat;
-          transition: all 0.3s ease-in-out;
-          box-shadow: 5px 5px 5px #ccccc6;
-          overflow: hidden;
-
-          &:focus {
-            a {
-              box-shadow: 10px 10px 10px #ccccc6;
-            }
-
-            transform: scale(1.2);
+          a {
+            z-index: 7;
+            height: 20rem;
+            width: 40rem;
+            overflow: hidden;
+            margin-bottom: 6rem;
           }
 
-          &:hover {
-            a {
-              box-shadow: 10px 10px 10px #ccccc6;
+          div {
+            z-index: 0;
+            margin: auto;
+            height: 20rem;
+            margin-bottom: 2rem;
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 5px 5px 5px #ccccc6;
+            overflow: hidden;
+
+            &:focus {
+              a {
+                box-shadow: 10px 10px 10px #ccccc6;
+              }
+
+              transform: scale(1.2);
             }
 
-            transform: scale(1.2);
+            &:hover {
+              a {
+                box-shadow: 10px 10px 10px #ccccc6;
+              }
 
+              transform: scale(1.2);
+            }
           }
         }
       }
     }
 
     // Home Skills Section
-    &:nth-of-type(5) {
-
-      &>div:nth-of-type(1) {
-        &>div:first-child {
+    &.skill-viz--container {
+      & > div:nth-of-type(1) {
+        & > div:first-child {
           // background-color: $light;
           border-radius: 50px;
           display: flex;
@@ -173,47 +160,41 @@ main {
             width: 20%;
             transform: rotate(-40deg);
           }
-
         }
 
-        &>div {
-
+        & > div {
           width: 100%;
 
-          &>div {
+          & > div {
             margin-bottom: 1rem;
             background-color: $grey-l-3;
             border-radius: 50px;
 
-            &>div {
-              opacity: .7;
+            & > div {
+              font-size: 16px;
+              opacity: 0.7;
               border-radius: 50px;
-              padding: 0.5rem;
+              padding: 0.3rem;
               background-color: $colord;
               color: $grey-l-2;
-
             }
           }
-
         }
-
       }
-
     }
 
     &:nth-of-type(6) {
-      &>div:first-child {
+      & > div:first-child {
         padding: 2rem;
         height: 20vh;
         margin: auto;
         background-color: $grey-l-2;
         width: 80vw;
 
-        &>div {
+        & > div {
           margin: auto;
         }
       }
     }
   }
-
 }

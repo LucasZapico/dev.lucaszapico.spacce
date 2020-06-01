@@ -1,4 +1,4 @@
-baseURL = "dev.lucaszapico.space"
+baseURL = ""
 languageCode = "en-us"
 title = "Lucas Zapico Developer Portfolio"
 theme = 'luc-v1'
