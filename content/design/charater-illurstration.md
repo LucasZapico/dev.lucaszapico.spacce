@@ -13,7 +13,7 @@ type: posts
 
 ## What is this?
 
-It goes without saying that in any sort of production to stay marginally competitive one must set aside a bit of time to see what is "trending" or about to trend. It was during one of these forays perusing [Pinterist](https://www.pinterest.com/) that I found [Rob Bailey](https://www.outlineartists.com/rob-bailey). I really dug their take on flat art. The color palettes are captivating and complimentary extending the piece's story. The character contours are organic and bring a degree of depth that I found wonderful.
+It goes without saying that in any sort of production to stay marginally competitive one must set aside a bit of time to see what is "trending" or about to trend. It was during one of these forays perusing [Pinterest](https://www.pinterest.com/) that I found [Rob Bailey](https://www.outlineartists.com/rob-bailey). I really dug their take on flat art. The color palettes are captivating and complimentary extending the piece's story. The character contours are organic and bring a degree of depth that I found wonderful.
 
 ![Rob Bailey Style Couple](/img/rob-bailey-post-imgs/rob-bailey-couple.jpg)
 
