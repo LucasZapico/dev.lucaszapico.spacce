@@ -15,12 +15,12 @@ type: posts
 
 It goes without saying that in any sort of production to stay marginally competitive one must set aside a bit of time to see what is "trending" or about to trend. It was during one of these forays perusing [Pinterist](https://www.pinterest.com/) that I found [Rob Bailey](https://www.outlineartists.com/rob-bailey). I really dug their take on flat art. The color palettes are captivating and complimentary extending the piece's story. The character contours are organic and bring a degree of depth that I found wonderful.
 
-![Rob Bailey Style Couple](./rob-bailey-couple.jpg)
+![Rob Bailey Style Couple](/img/rob-bailey-post-imgs/rob-bailey-couple.jpg)
 
 So the next time I needed a break for the grind I opened my [Figma](https://www.figma.com/) and decide to give the style a shot and here are the results.
 
-![](./char-redbeard.png)
-![](./charas-group.png)
+![](/img/rob-bailey-post-imgs/char-redbeard.png)
+![](/img/rob-bailey-post-imgs/charas-group.png)
 
 ## Why is this an important and interesting exercise?
 
