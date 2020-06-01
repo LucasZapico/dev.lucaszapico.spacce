@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "dev.lucaszapico.space"
 languageCode = "en-us"
 title = "Lucas Zapico Developer Portfolio"
 theme = 'luc-v1'
@@ -98,7 +98,6 @@ googleAnalytics = ""
   researchgate          = ""
   # Email
   email                 = ""
-  
+
 
 [sociallinks]
-    
