@@ -1,11 +1,20 @@
 {{define "main"}}
-  <main id="about" class="space-hor ">
-    <div class="in-right">
-        <h3>I learn, analysis, create, and iterate.</h3>
-        <p>My method is to immersed, discuss, ship, get feedback, and to be patient because understanding and quality both take time and effort.</p><p>I enjoy nothing more then building something efficient and competitive! The process itself is an addiction. I am energized by democratizing the creative process and exploring the unique, clever, strange, and sometime hilarious solutions that open collaborations fosters. 
-        </p>
-    </div>
-    {{ partial "portrait.html" . }}
-    {{ .Content }}
-  </main>
+<main id="about" class="space-hor">
+  <div class="in-right">
+    <h3>I learn, analysis, create, and iterate.</h3>
+    <p>
+      My method is to immersed, discuss, ship, get feedback, and to be patient
+      because understanding and quality both take time and effort.
+    </p>
+    <p>
+      I enjoy nothing more then building something efficient and competitive!
+      The process itself is an addiction. I am energized by democratizing the
+      creative process and exploring the unique, clever, strange, and sometime
+      hilarious solutions that open collaborations fosters.
+    </p>
+  </div>
+  {{ partial "portrait.html" . }} {{ .Content }}
+  <a class="btn--fancy" href="/#projects">See some work</a>
+</main>
+
 {{end}}
