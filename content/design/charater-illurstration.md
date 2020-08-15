@@ -10,7 +10,6 @@ excerpt: "Playing with illustration inspired by Rob Bailey's style"
 type: posts
 ---
 
-# Rob Bailey Inspired Character Illustration
 
 ## What is this?
 
