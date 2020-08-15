@@ -6,7 +6,7 @@ summaryLength = 40
 enableRobotsTXT = "True"
 enableEmoji = "True"
 # set up
-googleAnalytics = ""
+googleAnalytics = "UA-118288221-5"
 
 
 
