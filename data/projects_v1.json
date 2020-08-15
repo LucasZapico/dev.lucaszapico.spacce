@@ -15,7 +15,7 @@
   },
   {
     "title": "Quotible Express Backend",
-    "featured_img": "img/quotible/quotible-showcase-1.png",
+    "featured_img": "img/quotible/quotible-api-1.png",
     "link": "https://quotible-backend.herokuapp.com/",
     "categories": ["api", "node", "express"],
     "tags": [""],
@@ -57,7 +57,7 @@
   },
   {
     "title": "Mark'ie",
-    "featured_img": "img/quotible/quotible-showcase-1.png",
+    "featured_img": "img/markie/marike-experience.png",
     "link": "https://journal-app-2020.firebaseapp.com/landing",
     "categories": ["website", "gatsby", "business", "marketing", "branding"],
     "tags": [""],
@@ -71,7 +71,7 @@
   },
   {
     "title": "Yoga Of Words",
-    "featured_img": "img/quotible/quotible-showcase-1.png",
+    "featured_img": "img/yoga-of-words/yoga-of-words-experience-1.png",
     "link": "https://yogaofwords.com/",
     "categories": ["website", "gatsby", "business", "marketing", "branding"],
     "tags": [""],
@@ -86,7 +86,7 @@
 
   {
     "title": "Lucas Zapico.Space",
-    "featured_img": "img/quotible/quotible-showcase-1.png",
+    "featured_img": "img/lucaszapicospace/lucas-zapico-space.png",
     "link": "https://yogaofwords.com/",
     "categories": ["website", "Jekyll", "business", "marketing", "branding"],
     "tags": [""],
