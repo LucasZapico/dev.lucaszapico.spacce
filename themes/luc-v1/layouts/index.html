@@ -30,7 +30,28 @@
     {{ partial "leaves.html" . }}
 
   </section>
-<!-- Projects -->
+  <section class="space all-plus project--container">
+    <h3 href="#production"  class="exa kill-margin">Projects</h3>
+    <h5 class="kill-margin color-grey-mm">Collection of recent professional and personal projects</h5>
+<div class="project-card--container">
+    {{ range first 8 .Site.Data.projects_v1 }}
+    {{ $featuredImg := resources.Get .featured_img }} 
+    {{ if eq .show true }}
+        <div class="project-card--post">
+            <div class="project-card">
+              <img class="project-card--featured-img"src="{{ $featuredImg.Permalink }}"/>
+            </div>
+            <h4 class="kill-margin"><a href="{{ .link }}">{{ .title }}</a></h4>
+            <h5 class="kill-margin color-grey-mm">{{ .excerpt}}</h5>
+            <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+            <div>{{ .categories}}</div>
+            <div><p>{{ .summary}}</p></div>
+        </div>
+        {{ end }}
+    {{ end }}
+  </div>
+  </section>
+<!-- Work -->
   <section class="space all-plus posts--container">
     <h3 href="#production"  class="exa kill-margin">Stream Of Production</h3>
     <h5 class="kill-margin color-grey-mm"></h5>

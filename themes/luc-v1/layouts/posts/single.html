@@ -1,5 +1,8 @@
 {{define "main"}}
 <main class="space-vert post">
+  <h1>{{ .Title }}</h1>
+  <h4>Table of Content</h4>
+  <aside class="post--toc">  {{ .TableOfContents }}</aside>
   {{ .Content }}
 </main>
 {{end}}

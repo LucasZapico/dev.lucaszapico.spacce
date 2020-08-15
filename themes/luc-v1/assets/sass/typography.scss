@@ -188,15 +188,15 @@ pre {
 }
 
 code {
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-  font-size: 95%;
+  font-family: Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: .8rem;
   line-height: 140%;
   white-space: pre;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -o-pre-wrap;
-  background: $grey-l-1;
-  color: $dark;
+  // background: $grey-l-1;
+  // color: $dark;
 }
 
 p,
