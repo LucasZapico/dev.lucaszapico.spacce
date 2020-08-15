@@ -222,16 +222,16 @@ code,
   body {
     font-size: 20px;
   }
+  
+  .char-100 {
+    max-width: 620px;
+  }
   p,
   li,
   input,
   textarea,
   blockquote,
   code,
-  .char-100 {
-    max-width: 620px;
-  }
-
   .char-80 {
     max-width: 520px;
   }
@@ -248,16 +248,16 @@ code,
     font-size: 22px;
   }
 
+ 
+  .char-100 {
+    max-width: 800px;
+  }
   p,
   li,
   input,
   textarea,
   blockquote,
   code,
-  .char-100 {
-    max-width: 800px;
-  }
-
   .char-80 {
     max-width: 700px;
   }
@@ -272,16 +272,16 @@ code,
   body {
     font-size: 24px;
   }
+
+  .char-100 {
+    max-width: 1070px;
+  }
   p,
   li,
   input,
   textarea,
   blockquote,
   code,
-  .char-100 {
-    max-width: 1070px;
-  }
-
   .char-80 {
     max-width: 900px;
   }
@@ -293,16 +293,16 @@ code,
 
 @media screen and (min-width: 2200px) {
   font-size: 36px;
+
+  .char-100 {
+    max-width: 1600px;
+  }
   p,
   li,
   input,
   textarea,
   blockquote,
   code,
-  .char-100 {
-    max-width: 1600px;
-  }
-
   .char-80 {
     max-width: 1340px;
   }

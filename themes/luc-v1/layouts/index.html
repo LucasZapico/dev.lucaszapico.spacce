@@ -9,8 +9,8 @@
 
   <section class="space-hor ">
     <div class="in-left">
-      <h4 class="color-c bg-light">I love discussing, playing with, and solving problems of all shape size. I am drawn to the
-        digital space because of the speed of iteration and the seemingly infinite opportunites to do more. My todo list
+      <h4 class="color-c bg-light char-80">I love discussing, playing with, and solving problems of all shape size. I am drawn to the
+        digital space because of the speed of iteration and the seemingly infinite opportunities to do more. My todo list
         is life long and I wouldn't have it any other way.</h4>
         {{/*  fix button hover effect  */}}
       <a class="btn btn--fancy" href="about/">More about the human</a>
@@ -33,7 +33,7 @@
   <section class="space all-plus project--container">
     <h3 href="#production"  class="exa kill-margin">Projects</h3>
     <h5 class="kill-margin color-grey-mm">Collection of recent professional and personal projects</h5>
-<div class="project-card--container">
+<div class="project-card--container space-top">
     {{ range first 8 .Site.Data.projects_v1 }}
     {{ $featuredImg := resources.Get .featured_img }} 
     {{ if eq .show true }}
@@ -41,7 +41,7 @@
             <div class="project-card">
               <img class="project-card--featured-img"src="{{ $featuredImg.Permalink }}"/>
             </div>
-            <h4 class="kill-margin"><a href="{{ .link }}">{{ .title }}</a></h4>
+            <h4 class="kill-margin"><a href="{{ .link }}" target="_blank">{{ .title }}</a>{{" "}}<ion-icon name="open-outline"></ion-icon></h4>
             <h5 class="kill-margin color-grey-mm">{{ .excerpt}}</h5>
             <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
             <div>{{ .categories}}</div>
@@ -85,7 +85,7 @@
   </section>
 
   <!-- Design Dev Cards -->
-  <section class="space-hor space top-plus skill-cards--container">
+  <!-- <section class="space-hor space top-plus skill-cards--container">
     {{ range $.Site.Data.spaces_v1_1 }}
     <div class="card">
       <div class="header">
@@ -107,7 +107,7 @@
 
     </div>
     {{ end }}
-  </section>
+  </section> -->
   <section class="space all-plus workhappens--container">
       <h3 href="#projects"  class="kill-margin exa">Where Work Happens</h3>
       <h5 class="kill-margin color-grey-mm">A few other places on the internet where I get build stuff.</h5>
