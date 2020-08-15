@@ -44,8 +44,8 @@
             <h4 class="kill-margin"><a href="{{ .link }}" target="_blank">{{ .title }}</a>{{" "}}<ion-icon name="open-outline"></ion-icon></h4>
             <h5 class="kill-margin color-grey-mm">{{ .excerpt}}</h5>
             <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-            <div>{{ .categories}}</div>
             <div><p>{{ .summary}}</p></div>
+            <div>{{ .categories}}</div>
         </div>
         {{ end }}
     {{ end }}
