@@ -4,6 +4,7 @@ title = "Lucas Zapico Developer Portfolio"
 theme = 'luc-v1'
 summaryLength = 40
 enableRobotsTXT = "True"
+enableEmoji = "True"
 # set up
 googleAnalytics = ""
 
@@ -39,6 +40,22 @@ googleAnalytics = ""
 
 [test]
   test1 = "bang"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "solarized-light"
+    tabWidth = 2
 
 
 [social]
