@@ -34,7 +34,7 @@
     "categories": ["api", "node", "express"],
     "tags": [""],
     "excerpt": "Nodejs and Express API to support Quotible Frontend and Chrome Extension",
-    "show": true,
+    "show": false,
     "summary": "Quotible backend v1.0 is a React Hooks web app meant to facilitate the viewing, saving and categorizing for future use quotes ",
     "challenge": "",
     "method": "",
@@ -57,7 +57,7 @@
   },
   {
     "title": "Mark'ie",
-    "featured_img": "img/markie/marike-experience.png",
+    "featured_img": "img/markie/markie-showcase.png",
     "link": "https://journal-app-2020.firebaseapp.com/landing",
     "categories": ["website", "gatsby", "business", "marketing", "branding"],
     "tags": [""],
@@ -71,7 +71,7 @@
   },
   {
     "title": "Yoga Of Words",
-    "featured_img": "img/yoga-of-words/yoga-of-words-experience-1.png",
+    "featured_img": "img/yoga-of-words/yoga-of-word-showcase.png",
     "link": "https://yogaofwords.com/",
     "categories": ["website", "gatsby", "business", "marketing", "branding"],
     "tags": [""],
@@ -87,7 +87,7 @@
   {
     "title": "Lucas Zapico.Space",
     "featured_img": "img/lucaszapicospace/lucas-zapico-space.png",
-    "link": "https://yogaofwords.com/",
+    "link": "https://lucaszapico.space/",
     "categories": ["website", "Jekyll", "business", "marketing", "branding"],
     "tags": [""],
     "excerpt": "Lucas Zapico Portfolio for 2016-2018",
