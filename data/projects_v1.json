@@ -1,6 +1,6 @@
 [
   {
-    "title": "Quotible React Frontend",
+    "title": "Quotible React Frontend - WIP",
     "featured_img": "img/quotible/quotible-showcase-1.png",
     "link": "https://quotible-react-frontend.herokuapp.com/",
     "categories": ["web-app", "reactjs"],
@@ -14,7 +14,7 @@
     "opotunities": ""
   },
   {
-    "title": "Quotible Express Backend",
+    "title": "Quotible Express Backend - WIP",
     "featured_img": "img/quotible/quotible-api-1.png",
     "link": "https://quotible-backend.herokuapp.com/",
     "categories": ["api", "node", "express"],
