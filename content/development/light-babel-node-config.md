@@ -1,7 +1,7 @@
 ---
 title: "Light Babel Node Config"
 date: 2020-08-01T05:56:32-07:00
-draft: true
+draft: false
 isPost: true
 categories: ["project", "development", "config"]
 tags: ["node", "babel"]
