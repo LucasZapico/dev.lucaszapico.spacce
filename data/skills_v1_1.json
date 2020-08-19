@@ -1,38 +1,56 @@
 [
   {
     "name": "html",
-    "level": 90
+    "level": 90,
+    "stack": "frontend" 
   },
   {
     "name": "css",
-    "level": 85
+    "level": 85,
+    "stack": "frontend" 
   },
   {
     "name": "sass",
-    "level": 85
+    "level": 85,
+    "stack": "frontend" 
   },
   {
     "name": "JavaScript",
-    "level": 70
+    "level": 70,
+    "stack": "frontend" 
   },
   {
     "name": "React",
-    "level": 75
+    "level": 75,
+    "stack": "frontend" 
   },
   {
-    "name": "Angular2",
-    "level": 70
+    "name": "Angular7",
+    "level": 70,
+    "stack": "frontend" 
   },
   {
     "name": "Python",
-    "level": 55
+    "level": 55,
+    "stack": "backend" 
   },
   {
     "name": "Pandas",
-    "level": 60
+    "level": 60,
+    "stack": "analytics" 
   },
   {
     "name": "Bash",
-    "level": 50
+    "level": 50,
+    "stack": "other" 
+  },
+  {
+    "name": "Go",
+    "level": 20,
+    "stack": "other" 
+  },{
+    "name": "Linux",
+    "level": 50,
+    "stack": "other" 
   }
 ]

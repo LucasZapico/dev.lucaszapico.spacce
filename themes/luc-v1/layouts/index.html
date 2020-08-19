@@ -9,7 +9,7 @@
 
   <section class="space-hor ">
     <div class="in-left">
-      <h4 class="color-c bg-light char-80">I love discussing, playing with, and solving problems of all shape size. I am drawn to the
+      <h4 class="color-c bg-light char-80">I love discussing, playing with, and solving problems of all shapes and sizes. I am drawn to the
         digital space because of the speed of iteration and the seemingly infinite opportunities to do more. My todo list
         is life long and I wouldn't have it any other way.</h4>
         {{/*  fix button hover effect  */}}
@@ -30,8 +30,8 @@
     {{ partial "leaves.html" . }}
 
   </section>
-  <section class="space all-plus project--container">
-    <h3 href="#production"  class="exa kill-margin">Projects</h3>
+  <section class="space all-plus project--container ">
+    <h3 id="production" href="#production"  class="exa kill-margin">Projects</h3>
     <h5 class="kill-margin color-grey-mm">Collection of recent professional and personal projects</h5>
 <div class="project-card--container space-top">
     {{ range first 8 .Site.Data.projects_v1 }}
@@ -52,7 +52,7 @@
   </div>
   </section>
 <!-- Work -->
-  <section class="space all-plus posts--container">
+  <section class="space all-plus posts--container bg-dots">
     <h3 href="#production"  class="exa kill-margin">Stream Of Production</h3>
     <h5 class="kill-margin color-grey-mm"></h5>
 
@@ -109,7 +109,7 @@
     {{ end }}
   </section> -->
   <section class="space all-plus workhappens--container">
-      <h3 href="#projects"  class="kill-margin exa">Where Work Happens</h3>
+      <h3 id="projects" href="#projects"  class="kill-margin exa">Where Work Happens</h3>
       <h5 class="kill-margin color-grey-mm">A few other places on the internet where I get build stuff.</h5>
       <div class="space-top">
     {{ range $.Site.Data.workshops }}
@@ -129,7 +129,7 @@
 
   <!-- Skill viz section  -->
   <section class="space-hor skill-viz--container">
-    <h3 class="exa kill-margin">Skills</h3>
+    <h3 id="skills" href="#skills"  class="exa kill-margin">Skills</h3>
     <h5 class="kill-margin color-grey-mm">Some general technologies and how I stack.</h5>
     <div class="space-top">
       <div>
@@ -153,7 +153,7 @@
         {{ range $.Site.Data.skills_v1_1 }}
         <div>
           <div style="width:{{ .level }}% ">
-            {{ .name }}
+            <div class="skills--title">{{ .name }}</div>
           </div>
         </div>
         {{ end  }}
